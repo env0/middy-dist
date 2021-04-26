@@ -1,0 +1,60 @@
+{
+  "name": "@env0/http-response-serializer",
+  "version": "2.1.0-fix-serializer-response-body-attribute",
+  "description": "The Http Serializer middleware lets you define serialization mechanisms based on the current content negotiation.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=12"
+  },
+  "engineStrict": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "ava"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Lambda",
+    "Middleware",
+    "Serverless",
+    "Framework",
+    "AWS",
+    "AWS Lambda",
+    "Middy",
+    "HTTP",
+    "API",
+    "Header",
+    "Headers",
+    "Helmet",
+    "Security"
+  ],
+  "author": {
+    "name": "Middy contributors",
+    "url": "https://github.com/middyjs/middy/graphs/contributors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:env0/middy",
+    "directory": "packages/http-reponse-serializer"
+  },
+  "bugs": {
+    "url": "https://github.com/middyjs/middy/issues"
+  },
+  "homepage": "https://github.com/middyjs/middy#readme",
+  "dependencies": {
+    "@hapi/accept": "5.0.2",
+    "@middy/util": "^2.1.0",
+    "http-errors": "1.8.0"
+  },
+  "devDependencies": {
+    "@middy/core": "^2.1.0"
+  },
+  "gitHead": "7a6c0fbb8ab71d6a2171e678697de9f237568431"
+}
